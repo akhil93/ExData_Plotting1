@@ -1,3 +1,4 @@
+Sys.setlocale("LC_TIME", "C")
 # Let's load the dataset into R.
 data = read.table("household_power_consumption.txt", header=TRUE, sep = ";", na.strings = "?")
 
